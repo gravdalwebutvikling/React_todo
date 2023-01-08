@@ -90,7 +90,6 @@ class App extends Component {
                             value={this.state.userInput}
                             onChange={item => this.updateInput(item.target.value)}
                         />
-                        <InputGroup.Append>
                             <Button
                                 variant="dark"
                                 size="lg"
@@ -98,7 +97,6 @@ class App extends Component {
                             >
                                 ADD
                             </Button>
-                        </InputGroup.Append>
                     </InputGroup>
 
                 </Col>
